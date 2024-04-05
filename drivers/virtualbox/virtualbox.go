@@ -414,6 +414,7 @@ func (d *Driver) CreateVM() error {
 		"--hpet", "on",
 		"--hwvirtex", "on",
 		"--nestedpaging", "on",
+		"--nested-hw-virt", "on",
 		"--largepages", "on",
 		"--vtxvpid", "on",
 		"--accelerate3d", "off",
